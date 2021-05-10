@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2754206867001998124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2754206867001998127}
+  - component: {fileID: 2754206867001998125}
+  - component: {fileID: 3288650029316671455}
+  m_Layer: 0
+  m_Name: GameManagerPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2754206867001998127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2754206867001998124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2754206867001998125
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2754206867001998124}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &3288650029316671455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2754206867001998124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba679e3faba6ccd4e98fada465b4d873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioVermelho: {fileID: 8300000, guid: ed0fee1f6db9cc143ad120a18c0ddcfd, type: 3}
+  audioRosa: {fileID: 8300000, guid: 36f8a265e8f44cd43916acf043356cfb, type: 3}
+  audioLaranja: {fileID: 8300000, guid: 6b7bd690cd16d0e47b2c4d4bd3d0ff8a, type: 3}
+  audioBranco: {fileID: 8300000, guid: d74e3e83d59f40446935a7c8de1d8e0c, type: 3}
+  audioAzul: {fileID: 8300000, guid: 3f5fa50dba015dd4aa7ea929fe9a7b29, type: 3}
+  audioAmarelo: {fileID: 8300000, guid: 1dce0306808fc6b4f97711dd99cf7f00, type: 3}
+  audioVerde: {fileID: 8300000, guid: 3d1bf5d8e47f98640b413d14ac275521, type: 3}
+  audioPreto: {fileID: 8300000, guid: 86e874fc88024154faef07fbf5519b0e, type: 3}
+  images:
+  - {fileID: 21300000, guid: 345269dbd2424734880d95795faf2c28, type: 3}
+  - {fileID: 21300000, guid: 0bab61b311a72e34c8a9504b1e3f0f9f, type: 3}
+  - {fileID: 21300000, guid: ede7d8da5d43e17438d8510b42169c7b, type: 3}
+  - {fileID: 21300000, guid: 353a32fae70cbac4995ad9644cf733bc, type: 3}
+  - {fileID: 21300000, guid: 3dd97159868aca242b156d3211b815f4, type: 3}
+  - {fileID: 21300000, guid: 7adeaa003653e394bab8d6e0b3cfae6c, type: 3}
+  - {fileID: 21300000, guid: 5d09ef07ae020b34cb79b0c526bec5ca, type: 3}
+  - {fileID: 21300000, guid: 4ddc38174a461864b833efc6c99f298f, type: 3}
+  - {fileID: 21300000, guid: 74c1c44c774b0684fabe77025d7dcd1f, type: 3}
+  - {fileID: 21300000, guid: bd38aa336a7df3c4991836accf005d6d, type: 3}
+  - {fileID: 21300000, guid: 46150989ef6539942b65ddaf458cc107, type: 3}
+  - {fileID: 21300000, guid: 2a806f5267b381b43b0bf893dfe55d0b, type: 3}
+  - {fileID: 21300000, guid: d36ad07f8203f4648a3728964df961ba, type: 3}
+  - {fileID: 21300000, guid: 06a5960f4ab86e64a9389b1a3ffc6744, type: 3}
+  - {fileID: 21300000, guid: 9d2268d12f4fb504fa4320ed0ec45d41, type: 3}
+  - {fileID: 21300000, guid: 485b825936bff674bb226b0f1d3478ff, type: 3}
+  - {fileID: 21300000, guid: 83c98bec3a31aec4985f4bbbda7c3c51, type: 3}
+  - {fileID: 21300000, guid: cc39903e8461a0448b10adc29dcd9c97, type: 3}
+  - {fileID: 21300000, guid: a1c1f5c44b6911548950b957fd2f55d1, type: 3}
+  - {fileID: 21300000, guid: 547f41f046fa7c44cb072fa2f45dc7e8, type: 3}
+  - {fileID: 21300000, guid: b8d733161efce6d4ea4d1f2614c84d6e, type: 3}
+  - {fileID: 21300000, guid: 7a5a789047bea934887f09fca57b9d07, type: 3}
+  - {fileID: 21300000, guid: f6165c60b09178d468955272f0c8118e, type: 3}
+  - {fileID: 21300000, guid: 57313f61feae9564098132ccda0127c7, type: 3}
+  Duvida: {fileID: 21300000, guid: f1acce028d21eea4d94033ba0025ccae, type: 3}
+  Triste: {fileID: 21300000, guid: 96a893a4c6ebc6145984b89a9dcf8150, type: 3}
+  Feliz: {fileID: 21300000, guid: 92764f390870797439f59ed1d8643651, type: 3}
+  Imagem: {fileID: 0}
+  btnVermelho: {fileID: 0}
+  btnRosa: {fileID: 0}
+  btnLaranja: {fileID: 0}
+  btnAzul: {fileID: 0}
+  btnAmarelo: {fileID: 0}
+  btnVerde: {fileID: 0}
+  btnPreto: {fileID: 0}
+  btnBranco: {fileID: 0}
+  Expressoes: {fileID: 0}
